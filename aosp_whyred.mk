@@ -27,6 +27,9 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Set Official build tag
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
